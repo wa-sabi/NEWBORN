@@ -1,3 +1,44 @@
+.social-link-wrapper:hover {
+    background: rgba(0,0,0,0.05);
+    
+}
+
+.page-layout {
+    grid-gap: 48px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 144px minmax(0, 18fr) 144px;
+    grid-template-rows: 1fr;
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.aside-column-layout {
+    align-content: space-between;
+    display: grid;
+    grid-template-rows: 144px auto 144px;
+    height: 100%;
+    padding: 48px 0;
+}
+
 .logo-image {
     max-width: 80%;
+}
+
+.aside-socials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-link-wrapper {
+    cursor: pointer;
+    border-radius: 4px;
+    width: 56;
+    height: 56;
+}
+
+.link-wrapper {
+    padding: 16px;
 }
