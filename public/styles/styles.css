@@ -1,6 +1,5 @@
 .social-link-wrapper:hover {
-    background: rgba(0,0,0,0.05);
-    
+    background: rgba(0,0,0,0.05);   
 }
 
 .page-layout {
@@ -15,21 +14,28 @@
 }
 
 .aside-column-layout {
-    align-content: space-between;
+    /* align-content: space-between; */
     display: grid;
-    grid-template-rows: 144px auto 144px;
+    grid-template-rows: auto;
     height: 100%;
     padding: 48px 0;
 }
 
 .logo-image {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .aside-socials {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: fit-content;
+}
+
+.aside-logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .social-link-wrapper {
@@ -41,4 +47,34 @@
 
 .link-wrapper {
     padding: 16px;
+}
+
+.copyright {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 11px !important;
+    writing-mode: vertical-rl;
+    line-height: 1.5;
+}
+
+.aside-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#newborn-logo-small {
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+.hero {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.91px;
 }
